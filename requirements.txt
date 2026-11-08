@@ -1,0 +1,7 @@
+numpy>=2.0
+opencv-python-headless>=4.10,<5
+Pillow>=10.0
+tqdm>=4.66
+
+
+(cd /home/santosh/Desktop/Temporary && ./venv/bin/python test_download.py) & (cd /home/santosh/Desktop/Temporary && ./venv/bin/python download_real_fake.py) & wait
